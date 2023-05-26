@@ -1,0 +1,673 @@
+/**
+ * @license
+ *
+ * Font Family: Stardom
+ * Designed by: Indian Type Foundry
+ * URL: https://www.fontshare.com/fonts/stardom
+ * © 2023 Indian Type Foundry
+ *
+ * Font Style:
+ * Stardom Regular
+ *
+*/
+
+
+@font-face {
+    font-family: 'Stardom-Regular';
+    src: url('../fonts/Stardom-Regular.woff2') format('woff2'),
+         url('../fonts/Stardom-Regular.woff') format('woff'),
+         url('../fonts/Stardom-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+/**
+ * @license
+ *
+ * Font Family: Plus Jakarta Sans
+ * Designed by: Tokotype
+ * URL: https://www.fontshare.com/fonts/plus-jakarta-sans
+ * © 2023 Indian Type Foundry
+ *
+ * Font Styles:
+ * Plus Jakarta Sans Variable(Variable font)
+ * Plus Jakarta Sans Variable Italic(Variable font)
+ * Plus Jakarta Sans Extra Light
+ * Plus Jakarta Sans Extra Light Italic
+ * Plus Jakarta Sans Light
+ * Plus Jakarta Sans Light Italic
+ * Plus Jakarta Sans Regular
+ * Plus Jakarta Sans Italic
+ * Plus Jakarta Sans Medium
+ * Plus Jakarta Sans Medium Italic
+ * Plus Jakarta Sans Semi Bold
+ * Plus Jakarta Sans Semi Bold Italic
+ * Plus Jakarta Sans Bold
+ * Plus Jakarta Sans Bold Italic
+ * Plus Jakarta Sans Extra Bold
+ * Plus Jakarta Sans Extra Bold Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 400.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 800.0)
+
+*/
+
+@font-face {
+    font-family: 'PlusJakartaSans-Variable';
+    src: url('../fonts/PlusJakartaSans-Variable.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Variable.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Variable.ttf') format('truetype');
+         font-weight: 200 800;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  /**
+  * This is a variable font
+  * You can controll variable axes as shown below:
+  * font-variation-settings: 'wght' 400.0;
+  *
+  * available axes:
+  
+  * 'wght' (range from 200.0 to 800.0)
+  
+  */
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-VariableItalic';
+    src: url('../fonts/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-VariableItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-VariableItalic.ttf') format('truetype');
+         font-weight: 200 800;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-ExtraLight';
+    src: url('../fonts/PlusJakartaSans-ExtraLight.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-ExtraLight.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-ExtraLight.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-ExtraLightItalic';
+    src: url('../fonts/PlusJakartaSans-ExtraLightItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-ExtraLightItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-ExtraLightItalic.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-Light';
+    src: url('../fonts/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Light.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-LightItalic';
+    src: url('../fonts/PlusJakartaSans-LightItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-LightItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-LightItalic.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-Regular';
+    src: url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Regular.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-Italic';
+    src: url('../fonts/PlusJakartaSans-Italic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Italic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Italic.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-Medium';
+    src: url('../fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Medium.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-MediumItalic';
+    src: url('../fonts/PlusJakartaSans-MediumItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-MediumItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-MediumItalic.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-SemiBold';
+    src: url('../fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-SemiBold.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-SemiBoldItalic';
+    src: url('../fonts/PlusJakartaSans-SemiBoldItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-SemiBoldItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-SemiBoldItalic.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-Bold';
+    src: url('../fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-Bold.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-BoldItalic';
+    src: url('../fonts/PlusJakartaSans-BoldItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-BoldItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-BoldItalic.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-ExtraBold';
+    src: url('../fonts/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-ExtraBold.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+         font-weight: 800;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'PlusJakartaSans-ExtraBoldItalic';
+    src: url('../fonts/PlusJakartaSans-ExtraBoldItalic.woff2') format('woff2'),
+         url('../fonts/PlusJakartaSans-ExtraBoldItalic.woff') format('woff'),
+         url('../fonts/PlusJakartaSans-ExtraBoldItalic.ttf') format('truetype');
+         font-weight: 800;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+.h1 {
+    font-family: 'Stardom-Regular';
+    font-size: 38pt;
+}
+
+.p {
+    font-family: 'PlusJakartaSans-Variable';
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  background: #FBF8F6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.logo {
+  width: 4.167em;
+  height: 4.167em;
+}
+*/
+
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.hero-container {
+  width: 100%;
+  height: 51.333em;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 4.889em;
+}
+
+.article-section {
+  max-width: 51.111em;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 4.889em;
+}
+
+.om-ekvipasje-heading {
+  font-family: 'Stardom-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.667rem;
+  line-height: 3.4444rem;
+  color: #474539;
+  margin-bottom: 1.333rem;
+}
+
+.om-oss-p {
+  font-family: 'PlusJakartaSans-Variable';
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #0B0A0A;
+  margin-bottom: 4.889em;
+}
+
+.buttons-landing-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.556em;
+  margin-top: 2.667em;
+  margin-bottom: 4.889em;
+  width: 100%;
+  max-width: 51.111em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .buttons-landing-flex {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.button-blimedlem,
+.button-loginn {
+  align-items: center;
+  padding: 0.4444em 0.8889em;
+  flex-grow: 1;
+  height: 2.5556em;
+  background: #474539;
+  border: none;
+  border-radius: 0.2222em;
+  color: #FFFBF8;
+  cursor: pointer;
+  font-family: 'PlusJakartaSans-Bold', sans-serif;
+  font-size: 1.3333rem;
+  transition: color 300ms ease-out, border 300ms ease-out;
+}
+
+.button-blimedlem:hover,
+.button-loginn:hover {
+  color: #FFFBF8;
+  background: #565345;
+  border: 2px solid #98947A;
+}
+
+.button-blimedlem:active,
+.button-loginn:active {
+  color: #FFFBF8;
+  background: #726F5C;
+  border: 2px solid #98947A;
+}
+
+@media (max-width: 767px) {
+  .buttons-landing-flex {
+    width: 100%;
+    max-width: none;
+  }
+
+  .button-blimedlem,
+  .button-loginn {
+    width: 100%;
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #FBF8F6;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  max-width: 390px;
+  width: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.input-label {
+  font-family: 'Plus Jakarta Sans Bold', sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input-field {
+  padding: 8px;
+  height: 2.5556em;
+  width: 100%;
+  border: 1px solid #858483;
+  border-radius: 4px;
+  font-family: 'PlusJakartaSans-Variable', sans-serif;
+  font-size: 1rem;
+}
+
+.input-field:active {
+  border: 1px solid #6C6B6A;
+}
+
+.brukernavn-label,
+.passord-label {
+  font-family: 'Plus Jakarta Sans-Variable', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0B0A0A;
+}
+
+.login-button-hjem {
+  align-self: flex-start;
+}
+
+.forgotten-password-container {
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+.glemt-passord {
+  font-family: 'PlusJakartaSans-Variable', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0B0A0A;
+  margin-top: 8px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .login-form {
+    padding-bottom: 1.556em;
+  }
+}
+
+@media (max-width: 390px) {
+  .login-form {
+    padding: 0;
+  }
+}
+
+.footer-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+/*----- Hjem ------*/
+
+/* Header styles */
+
+.header-hjem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Gap between logo and search bar */
+}
+
+.logo-hjem {
+  max-height: 2.5556em; /* Set max height equal to search bar height */
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 8px 32px 8px 8px;
+  height: 2.5556em;
+  width: 200px;
+  border: 1px solid #858483;
+  border-radius: 4px;
+  font-family: 'PlusJakartaSans-Variable', sans-serif;
+  font-size: 1rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.add-ad-button {
+  padding: 0.4444em 0.8889em;
+  height: 2.5556em;
+  background: #474539;
+  border: none;
+  border-radius: 0.2222em;
+  color: #FFFBF8;
+  font-family: 'PlusJakartaSans-Bold', sans-serif;
+  font-size: 1.3333rem;
+  cursor: pointer;
+}
+
+.add-ad-button:hover {
+  background: #6C6B6A;
+}
+
+.add-ad-button:focus {
+  outline: none;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px; /* Gap between button, icons */
+}
+
+
+
+.menu {
+  background-color: #F0F0F0;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu li {
+  position: relative;
+  margin-right: 20px;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #F0F0F0;
+  padding: 10px;
+}
+
+.menu ul ul li {
+  width: 200px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Card section styles */
+.card-section {
+  padding: 20px;
+}
+
+.card-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.card-scroll {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.card {
+  width: 390px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-heading {
+  font-size: 1.25rem;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.card-tags {
+  margin-bottom: 8px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #F0F0F0;
+  color: #333333;
+  font-size: 0.875rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+}
+
+.price-label {
+  font-size: 1rem;
+  margin-right: 4px;
+}
+
+.price-value {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.card-heart-button {
+  background-image: url("path/to/heart-icon.svg");
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
