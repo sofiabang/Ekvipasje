@@ -562,15 +562,15 @@ body {
 
 .menu {
   background-color: #F0F0F0;
-  font-family: 'Stardom-Regular';
-  font-weight: 400px;
-  font-size: 1.778rem;
 }
 
 .menu ul {
   display: flex;
   list-style: none;
   padding: 10px;
+  font-family: 'Stardom-Regular';
+  font-weight: 400px;
+  font-size: 1.778rem;
 }
 
 .menu li {
