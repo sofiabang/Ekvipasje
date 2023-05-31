@@ -1,8 +1,13 @@
+// Startside
+
 document.getElementById('login-link').addEventListener('click', function(event) {
   event.preventDefault(); 
 
   window.location.href = 'login.html'; 
 });
+
+
+// Log in
 
 const loginForm = document.querySelector('.login-form');
 const usernameInput = document.querySelector('#username');
@@ -37,4 +42,26 @@ document.addEventListener('keydown', function(event) {
       window.location.href = 'hjem.html'; 
     }
   }
+});
+
+
+// HJEM
+
+const heartButton = document.getElementById('my-heart-button');
+
+heartButton.addEventListener('click', toggleClickedState);
+
+const menuItems = document.querySelectorAll('.menu li');
+
+
+menuItems.forEach((menuItem) => {
+  const subMenu = menuItem.querySelector('.sub-menu');
+
+  menuItem.addEventListener('mouseenter', () => {
+    subMenu.style.display = 'block';
+  });
+
+  menuItem.addEventListener('mouseleave', () => {
+    subMenu.style.display = 'none';
+  });
 });

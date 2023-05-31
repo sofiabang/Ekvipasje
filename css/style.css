@@ -285,6 +285,7 @@ body {
 .logo {
   width: 70px;
   height: 70px;
+  margin-top: 40px;
 }
 
 .hero-container {
@@ -500,7 +501,7 @@ body {
 }
 
 .logo-hjem {
-  max-height: 2.5556em; /* Set max height equal to search bar height */
+  max-height: 70px; /* Set max height equal to search bar height */
 }
 
 .search-bar {
@@ -559,9 +560,11 @@ body {
 }
 
 
-
 .menu {
   background-color: #F0F0F0;
+  font-family: 'Stardom-Regular';
+  font-weight: 400px;
+  font-size: 1.778rem;
 }
 
 .menu ul {
@@ -575,19 +578,19 @@ body {
   margin-right: 20px;
 }
 
-.menu li:hover ul {
+.menu li:hover .sub-menu {
   display: block;
 }
 
-.menu ul ul {
+.menu .sub-menu {
   display: none;
   position: absolute;
   top: 100%;
-  background-color: #F0F0F0;
+  background-color: #F0F0F0; /* Set background color same as the menu */
   padding: 10px;
 }
 
-.menu ul ul li {
+.menu .sub-menu li {
   width: 200px;
 }
 
@@ -597,6 +600,7 @@ body {
   color: #333;
   text-decoration: none;
 }
+
 
 /* Card section styles */
 .card-section {
@@ -608,27 +612,51 @@ body {
   margin-bottom: 10px;
 }
 
+.card-scroll-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .card-scroll {
-  overflow-x: scroll;
-  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
 }
 
 .card {
   width: 390px;
-  background-color: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+  margin-right: 20px;
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 40px);
+    margin-right: 20px;
+  }
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-image-container {
+  text-align: center;
 }
 
 .card-image {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  margin-bottom: -20px;
+}
+
+.card-text-container {
+  background-color: #C3B29F;
+  padding: 20px;
 }
 
 .card-heading {
+  font-family: 'Stardom-Regular';
   font-size: 1.25rem;
+  color: #0B0A0A;
   margin-top: 12px;
   margin-bottom: 8px;
 }
@@ -639,12 +667,14 @@ body {
 
 .tag {
   display: inline-block;
-  background-color: #F0F0F0;
-  color: #333333;
+  background-color: #474539;
+  color: #FFFBF8;
+  font-family: 'PlusJakarta-Variable', sans-serif;
+  font-weight: 700;
   font-size: 0.875rem;
   padding: 4px 8px;
-  border-radius: 4px;
-  margin-right: 8px;
+  border-radius: 40px;
+  margin-right: 4px;
 }
 
 .card-price {
@@ -653,19 +683,36 @@ body {
 }
 
 .price-label {
+  font-family: 'PlusJakarta-Variable', sans-serif;
+  font-weight: 700;
   font-size: 1rem;
+  color: #474539;
   margin-right: 4px;
 }
 
 .price-value {
+  font-family: 'PlusJakarta-Variable', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #474539;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
 .card-heart-button {
-  background-image: url("path/to/heart-icon.svg");
-  width: 24px;
-  height: 24px;
+  background-image: url("../assets/likebutton.svg");
+  width: 52px;
+  height: 52px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-heart-button.clicked {
+  background-image: url("../assets/likebuttonliked.svg");
+  width: 52px;
+  height: 52px;
   background-size: cover;
   border: none;
   background-color: transparent;
