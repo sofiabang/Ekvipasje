@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body, figure, h1, h2, h3, h4, h5, h6, ul, ol, li, p, blockquote, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+  }
+
+.main {
+    padding-left: 70px;
+    padding-right: 70px;
+}
