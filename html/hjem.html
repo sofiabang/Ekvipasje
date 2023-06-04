@@ -12,18 +12,18 @@
 <body>
   <header class="header-hjem">
     <div class="header-left">
-      <img src="../assets/Logo_Ekvipasje.svg" class="logo-hjem" alt="Logo">
+      <img src="../assets/Logo_Ekvipasje.svg" class="logo-hjem" alt="går tilbake til hjem">
       <div class="search-bar">
         <input type="text" id="search-input1" placeholder="Search...">
-        <img class="search-icon" src="../assets/search-icon.svg" alt="Search">
+        <img class="search-icon" src="../assets/search-icon.svg" alt="Søkefelt">
       </div> 
     </div>
     <div class="header-right">
       <button class="add-ad-button">+ legg til annonse</button>
       <div class="header-icons">
-        <img src="../assets/meldinger-icon.svg" alt="Meldinger Icon">
-        <img src="../assets/favoritter-icon.svg" alt="Favoritter Icon">
-        <img src="../assets/profil-icon.svg" alt="Profil Icon">
+        <img src="../assets/meldinger-icon.svg" alt="Meldinger">
+        <img src="../assets/favoritter-icon.svg" alt="Favoritter">
+        <img src="../assets/profil-icon.svg" alt="Profil">
       </div>
     </div>
   
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="search-bar-mobile">
-      <input type="text" id="search-input2" placeholder="Search...">
+      <input type="text" id="search-input2" placeholder="Søk etter f.eks spranghest...">
       <img class="search-icon" src="../assets/search-icon.svg" alt="søk">
     </div>
   
@@ -123,10 +123,7 @@
               <span class="tag">Oslo</span>
             </div>
             <div class="price-like-container">
-              <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
-                <span class="price-value">250 - 500 000kr</span>
-              </div>
+              <span class="price-value">250 - 500 000kr</span>
               <button class="card-heart-button" onclick="toggleLikeButton()"></button>
             </div>
           </div>
@@ -147,10 +144,28 @@
               <span class="tag">Oslo</span>
             </div>
             <div class="price-like-container">
-              <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
-                <span class="price-value">250 - 500 000kr</span>
-              </div>
+              <span class="price-value">250 - 500 000kr</span>
+              <button class="card-heart-button" onclick="toggleLikeButton()" alt="Liker"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card" tabindex="0" role="article">
+        <div class="card-content">
+          <div class="card-image-container">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
+          </div>
+          <div class="card-text-container">
+            <h2 class="card-heading">Spranghest til salgs</h2>
+            <div class="card-tags">
+              <span class="tag">10år</span>
+              <span class="tag">160cm</span>
+              <span class="tag">Sprang</span>
+              <span class="tag">Holsteiner</span>
+              <span class="tag">Oslo</span>
+            </div>
+            <div class="price-like-container">
+              <span class="price-value">250 - 500 000kr</span>
               <button class="card-heart-button" onclick="toggleLikeButton()"></button>
             </div>
           </div>
@@ -159,7 +174,49 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
+          </div>
+          <div class="card-text-container">
+            <h2 class="card-heading">Spranghest til salgs</h2>
+            <div class="card-tags">
+              <span class="tag">10år</span>
+              <span class="tag">160cm</span>
+              <span class="tag">Sprang</span>
+              <span class="tag">Holsteiner</span>
+              <span class="tag">Oslo</span>
+            </div>
+            <div class="price-like-container">
+              <span class="price-value">250 - 500 000kr</span>
+              <button class="card-heart-button" onclick="toggleLikeButton()"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card" tabindex="0" role="article">
+        <div class="card-content">
+          <div class="card-image-container">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
+          </div>
+          <div class="card-text-container">
+            <h2 class="card-heading">Spranghest til salgs</h2>
+            <div class="card-tags">
+              <span class="tag">10år</span>
+              <span class="tag">160cm</span>
+              <span class="tag">Sprang</span>
+              <span class="tag">Holsteiner</span>
+              <span class="tag">Oslo</span>
+            </div>
+            <div class="price-like-container">
+              <span class="price-value">250 - 500 000kr</span>
+              <button class="card-heart-button" onclick="toggleLikeButton()"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card" tabindex="0" role="article">
+        <div class="card-content">
+          <div class="card-image-container">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container">
             <h2 class="card-heading">Spranghest til salgs</h2>
@@ -172,79 +229,6 @@
             </div>
             <div class="price-like-container">
               <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
-                <span class="price-value">250 - 500 000kr</span>
-              </div>
-              <button class="card-heart-button" onclick="toggleLikeButton()"></button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="card" tabindex="0" role="article">
-        <div class="card-content">
-          <div class="card-image-container">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
-          </div>
-          <div class="card-text-container">
-            <h2 class="card-heading">Spranghest til salgs</h2>
-            <div class="card-tags">
-              <span class="tag">10år</span>
-              <span class="tag">160cm</span>
-              <span class="tag">Sprang</span>
-              <span class="tag">Holsteiner</span>
-              <span class="tag">Oslo</span>
-            </div>
-            <div class="price-like-container">
-              <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
-                <span class="price-value">250 - 500 000kr</span>
-              </div>
-              <button class="card-heart-button" onclick="toggleLikeButton()"></button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="card" tabindex="0" role="article">
-        <div class="card-content">
-          <div class="card-image-container">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
-          </div>
-          <div class="card-text-container">
-            <h2 class="card-heading">Spranghest til salgs</h2>
-            <div class="card-tags">
-              <span class="tag">10år</span>
-              <span class="tag">160cm</span>
-              <span class="tag">Sprang</span>
-              <span class="tag">Holsteiner</span>
-              <span class="tag">Oslo</span>
-            </div>
-            <div class="price-like-container">
-              <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
-                <span class="price-value">250 - 500 000kr</span>
-              </div>
-              <button class="card-heart-button" onclick="toggleLikeButton()"></button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="card" tabindex="0" role="article">
-        <div class="card-content">
-          <div class="card-image-container">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
-          </div>
-          <div class="card-text-container">
-            <h2 class="card-heading">Spranghest til salgs</h2>
-            <div class="card-tags">
-              <span class="tag">10år</span>
-              <span class="tag">160cm</span>
-              <span class="tag">Sprang</span>
-              <span class="tag">Holsteiner</span>
-              <span class="tag">Oslo</span>
-            </div>
-            <div class="price-like-container">
-              <div class="card-price">
-                <span class="price-label">Prisklasse:</span>
                 <span class="price-value">250 - 500 000kr</span>
               </div>
               <button class="card-heart-button" onclick="toggleLikeButton()"></button>
@@ -280,7 +264,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-event">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="badge">
             <h3 class="badge-heading">12.juni</h3>
@@ -297,7 +281,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-event">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="badge">
             <h3 class="badge-heading">12.juni</h3>
@@ -314,7 +298,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-event">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="badge">
             <h3 class="badge-heading">12.juni</h3>
@@ -403,7 +387,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-blog">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container-blog">
             <h class="card-heading-blog">10 tips når du skal flette man</h>
@@ -415,7 +399,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-blog">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container-blog">
             <h class="card-heading-blog">10 tips når du skal flette man</h>
@@ -427,7 +411,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-blog">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container-blog">
             <h class="card-heading-blog">10 tips når du skal flette man</h>
@@ -439,7 +423,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-blog">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container-blog">
             <h class="card-heading-blog">10 tips når du skal flette man</h>
@@ -451,7 +435,7 @@
       <section class="card" tabindex="0" role="article">
         <div class="card-content">
           <div class="card-image-container-blog">
-            <img class="card-image" src="../assets/product1-image.png" alt="Product Image">
+            <img class="card-image" src="../assets/product1-image.png" alt="Produktbilde">
           </div>
           <div class="card-text-container-blog">
             <h class="card-heading-blog">10 tips når du skal flette man</h>

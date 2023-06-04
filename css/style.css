@@ -307,7 +307,7 @@
     margin-bottom: 4.889em;
   }
   
-  .article-section {
+  .article-section-startside {
     max-width: 51.111em;
     width: 100%;
     margin: 4.889em auto 0;
@@ -366,11 +366,11 @@
     font-family: 'PlusJakartaSans-Bold', sans-serif;
     font-size: 1.3333rem;
     transition: color 300ms ease-out, border 300ms ease-out;
-    flex: 1; /* Use flex: 1 to make both buttons equally expand */
+    flex: 1; 
   }
   
   .button-blimedlem {
-    margin-right: 20px; /* Add a margin between the buttons on desktop */
+    margin-right: 20px;
   }
 
   .button-blimedlem:hover,
@@ -800,7 +800,7 @@
   }
   
   .card-text-container {
-    background-color: #C3B29F;
+    background-color: #D0C3B4;
     padding: 20px;
     margin-top: -14px;
   }
@@ -868,22 +868,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .price-label {
-    font-family: 'PlusJakartaSans-Variable', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    color: #474539;
-    margin-right: 4px;
+    align-items: center;
   }
   
   .price-value {
     font-family: 'PlusJakartaSans-Variable', sans-serif;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.333rem;
     color: #474539;
-    font-size: 1rem;
     font-weight: bold;
   }
 
@@ -891,9 +883,9 @@
     display: block;
     position: relative;
     width: fit-content;
-    background-color: #C3B29F; /* Customize the background color of the badge */
+    background-color: #D0C3B4; 
     background-attachment: fixed;
-    color: #0B0A0A; /* Customize the text color of the badge */
+    color: #0B0A0A;
     padding: 8px; 
     margin-top: -72px;
   }
@@ -982,7 +974,7 @@
     display: flex;
     width: 100%;
     height: 10vh;
-    background-color: #C3B29F;
+    background-color: #D0C3B4;
     justify-content: center;
     align-items: center;
     margin-bottom: 76px;
