@@ -36,7 +36,7 @@ menuItems.forEach((menuItem) => {
   });
 });
 
-// Likebutton 
+// Likebutton
 
 function toggleLikeButton() {
   var button = document.querySelector(".card-heart-button");
