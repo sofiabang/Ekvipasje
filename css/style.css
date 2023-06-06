@@ -263,10 +263,12 @@ body {
 }
 
 @media (max-width: 767px) {
-  main.startsideoglogin {
+  main.indexandlogin {
     margin: 0 20px;
   }
 }
+
+/* ---- Index ---- */
 
 .header {
   display: flex;
@@ -292,7 +294,7 @@ body {
   margin-bottom: 4.889em;
 }
 
-.article-section-startside {
+.article-section-index {
   max-width: 51.111em;
   width: 100%;
   margin: 4.889em auto 0;
@@ -384,6 +386,8 @@ body {
   }
 }
 
+/* ---- Login ---- */
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -430,14 +434,14 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.label.brukernavn-label {
+.label.username-label {
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
-.label.passord-label {
+.label.password-label {
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
@@ -458,8 +462,8 @@ body {
   border: 1px solid #6c6b6a;
 }
 
-.brukernavn-label,
-.passord-label {
+.username-label,
+.password-label {
   font-family: "Plus Jakarta Sans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -505,7 +509,7 @@ body {
 
 /*----- Hjem ------*/
 
-/* Header styles */
+/* Header and search styles */
 
 .header-hjem {
   position: sticky;
