@@ -648,7 +648,7 @@ nav.menu {
   justify-content: space-between;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 515px) {
   .mobilenavigationtop,
   .mobilenavigationbottom {
     display: none;
@@ -659,7 +659,7 @@ nav.menu {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 515px) {
   .header-left,
   .header-right {
     display: none;
@@ -751,7 +751,7 @@ nav.menu {
   padding: 70px 0px 70px 70px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 515px) {
   .card-section {
     padding: 20px 0px 20px 20px;
   }
