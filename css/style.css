@@ -698,7 +698,7 @@ nav.menu {
 
   .search-bar-mobile {
     position: fixed;
-    top: 16vh;
+    top: 15vh;
     left: 0;
     right: 0;
     z-index: 999;
