@@ -937,7 +937,7 @@ nav.menu {
 .persona {
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
+  padding-top: 0.8889rem;
 }
 
 .card-text-container-blog {
