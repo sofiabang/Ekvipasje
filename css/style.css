@@ -470,13 +470,14 @@ body {
   color: #0b0a0a;
 }
 
-.login-button-hjem {
-  align-self: flex-start;
-}
-
 .forgotten-password-container {
   text-align: left;
   padding-top: 0.5rem;
+  padding-bottom: 4.44rem;
+}
+
+.login-button-hjem {
+  align-self: flex-start;
 }
 
 .glemt-passord {
