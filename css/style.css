@@ -395,6 +395,7 @@ body {
   justify-content: center;
   height: 100vh;
   background: #fbf8f6;
+  padding: 0 20px;
 }
 
 .form-container {
