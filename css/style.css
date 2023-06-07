@@ -573,8 +573,26 @@ body {
   color: #fffbf8;
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 1.3333rem;
+  line-height: 1.5em;
   cursor: pointer;
   margin-right: 0.4444rem;
+}
+
+.add-ad-button:hover {
+  background: #6c6b6a;
+}
+
+.add-ad-button:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .add-ad-button {
+    height: 3rem;
+    padding: 0.2222em 0.4444em;
+    font-size: 0.8889rem;
+    line-height: 1.5em;
+  }
 }
 
 .add-ad-button:hover {
@@ -648,7 +666,7 @@ nav.menu {
   justify-content: space-between;
 }
 
-@media (min-width: 515px) {
+@media (min-width: 870px) {
   .mobilenavigationtop,
   .mobilenavigationbottom {
     display: none;
@@ -659,7 +677,7 @@ nav.menu {
   }
 }
 
-@media (max-width: 515px) {
+@media (max-width: 870px) {
   .header-left,
   .header-right {
     display: none;
@@ -751,7 +769,7 @@ nav.menu {
   padding: 3.8889rem 0 3.8889rem 3.8889rem;
 }
 
-@media (max-width: 515px) {
+@media (max-width: 870px) {
   .card-section {
     padding: 2.2222rem 0 1.1111rem 1.1111rem;
   }
@@ -773,14 +791,15 @@ nav.menu {
   flex-wrap: nowrap;
 }
 
-@media (max-width: 431px) {
+@media (max-width: 870px) {
   .card-content {
+    width: 74vw;
     margin-right: 0.4444rem;
   }
 }
-@media (min-width: 431px) {
+@media (min-width: 870px) {
   .card-content {
-    width: 390px;
+    width: 26vw;
     margin-right: 0.4444rem;
   }
 }
