@@ -791,7 +791,7 @@ nav.menu {
 
 .card-text-container {
   background-color: #d0c3b4;
-  padding: 20px;
+  padding: 24px 16px;
   margin-top: -14px;
 }
 
@@ -896,7 +896,7 @@ nav.menu {
 
 .card-text-container-event {
   background-color: #685f54;
-  padding: 20px;
+  padding: 24px 16px;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -922,7 +922,7 @@ nav.menu {
 
 .card-text-container-forum {
   background-color: #afa08f;
-  padding: 20px;
+  padding: 24px 16px;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -942,7 +942,7 @@ nav.menu {
 
 .card-text-container-blog {
   background-color: #726f5c;
-  padding: 20px;
+  padding: 24px 16px;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
