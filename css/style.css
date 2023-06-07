@@ -812,6 +812,7 @@ nav.menu {
   background-color: #d0c3b4;
   padding: 1.3333rem 0.8889rem;
   margin-top: -0.7778rem;
+  border-radius: 4px;
 }
 
 .card-heading {
@@ -921,6 +922,7 @@ nav.menu {
   font-weight: 400;
   color: #fbf8f6;
   margin-top: -0.7778rem;
+  border-radius: 4px;
 }
 
 .card-heading-event {
@@ -947,6 +949,7 @@ nav.menu {
   font-weight: 400;
   color: #0b0a0a;
   margin-top: -0.7778rem;
+  border-radius: 4px;
 }
 
 .skaper {
@@ -967,6 +970,7 @@ nav.menu {
   font-weight: 400;
   color: #fffbf8;
   margin-top: -0.7778rem;
+  border-radius: 4px;
 }
 
 .card-heading-blog {
