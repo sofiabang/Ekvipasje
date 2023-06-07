@@ -589,7 +589,7 @@ body {
 @media (max-width: 767px) {
   .add-ad-button {
     height: 3rem;
-    padding: 0.2222em 0.4444em;
+    padding: 0.4444em 0.8889em;
     font-size: 0.8889rem;
     line-height: 1.5em;
   }
