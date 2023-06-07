@@ -775,13 +775,13 @@ nav.menu {
 
 @media (max-width: 431px) {
   .card-content {
-    margin-right: 8px;
+    margin-right: 0.4444rem;
   }
 }
 @media (min-width: 431px) {
   .card-content {
     width: 390px;
-    margin-right: 8px;
+    margin-right: 0.4444rem;
   }
 }
 
