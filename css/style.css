@@ -285,7 +285,7 @@ body {
 .hero-container {
   width: 100%;
   height: 48.67rem;
-  background-image: url("./assets/herobanner_desktop.png");
+  background-image: url("../assets/herobanner_desktop.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%;
