@@ -753,6 +753,7 @@ nav.menu {
 
 @media (max-width: 515px) {
   .card-section {
+    top: 160px;
     padding: 20px 0px 20px 20px;
   }
 }
