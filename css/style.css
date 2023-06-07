@@ -279,7 +279,7 @@ body {
 .logo {
   width: 70px;
   height: 70px;
-  margin-top: 40px;
+  margin-top: 2.2222rem;
 }
 
 .hero-container {
@@ -323,7 +323,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 2.2222rem;
   margin-bottom: 4.889em;
   width: 100%;
   max-width: 51.111em;
@@ -336,7 +336,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 1.1111rem;
   }
 }
 
@@ -357,7 +357,7 @@ body {
 }
 
 .button-blimedlem {
-  margin-right: 20px;
+  margin-right: 1.1111rem;;
 }
 
 .button-blimedlem:hover,
@@ -395,23 +395,23 @@ body {
   justify-content: center;
   height: 100vh;
   background: #fbf8f6;
-  padding: 0 20px;
+  padding: 0 1.1111rem;;
 }
 
 .form-container {
   width: 100%;
-  padding: 0 8px;
+  padding: 0 0.4444rem;
   box-sizing: border-box;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.4444rem;
   position: relative;
   max-width: 390px;
   width: 100%;
-  padding: 0 8px;
+  padding: 0 0.4444rem;
   box-sizing: border-box;
 }
 
@@ -425,7 +425,7 @@ body {
 
 .input-container {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 0.4444rem;
 }
 
 .input-label {
@@ -450,7 +450,7 @@ body {
 }
 
 .input-field {
-  padding: 8px;
+  padding: 0.4444rem;
   height: 2.5556em;
   width: 100%;
   border: 1px solid #858483;
@@ -486,7 +486,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: #0b0a0a;
-  margin-top: 8px;
+  margin-top: 0.4444rem;
   text-align: left;
 }
 
@@ -520,7 +520,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 70px;
+  padding: 0 3.8889rem;
   padding-top: 40px;
   background-color: #fbf8f6;
 }
@@ -528,7 +528,7 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 2.2222rem;
 }
 
 .logo-hjem {
@@ -540,7 +540,7 @@ body {
 }
 
 .search-bar input {
-  padding: 8px 32px 8px 8px;
+  padding: 0.4444rem 1.7778rem 0.4444rem 0.4444rem;
   height: 2.5556em;
   width: 200px;
   border: 1px solid #858483;
@@ -552,10 +552,10 @@ body {
 .search-icon {
   position: absolute;
   top: 50%;
-  right: 8px;
+  right: 0.4444rem;
   transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
+  width: 0.8889rem; 
+  height: 0.8889rem;
 }
 
 .header-right {
@@ -574,7 +574,7 @@ body {
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 1.3333rem;
   cursor: pointer;
-  margin-right: 8px;
+  margin-right: 0.4444rem;
 }
 
 .add-ad-button:hover {
@@ -588,15 +588,15 @@ body {
 .header-icons {
   display: flex;
   align-items: center;
-  gap: 14px; /* Gap between button, icons */
+  gap: 0.7778rem;
 }
 
 nav.menu {
   position: sticky;
   z-index: 1;
-  top: 110px;
+  top: 6.1111rem;
   margin: 0 auto;
-  padding: 0 70px;
+  padding: 0 3.8889rem;
   justify-self: center;
   background-color: #fffbf8;
 }
@@ -626,11 +626,11 @@ nav.menu {
   position: absolute;
   top: 100%;
   background-color: #f0f0f0;
-  padding: 10px;
+  padding: 0.4444rem;
 }
 
 .menu .sub-menu li {
-  width: 200px;
+  width: 11.1111rem;
 }
 
 .sub-menu li a {
@@ -642,7 +642,7 @@ nav.menu {
 
 .menu a {
   display: flex;
-  padding: 8px;
+  padding: 0.4444rem;
   text-decoration: none;
   color: #0B0A0A;
   justify-content: space-between;
@@ -666,7 +666,7 @@ nav.menu {
   }
 
   .main-hjem {
-    padding-top: 100px;
+    padding-top: 5.5556rem;
   }
 
   .mobilenavigationtop {
@@ -679,26 +679,26 @@ nav.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-    margin-top: 20px;
+    padding: 0 1.1111rem;
+    margin-top: 1.1111rem;
     height: 80px;
   }
 
   .mobilenavigationtop .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
   }
 
   .mobilenavigationtop .icons-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
   }
 
   .search-bar-mobile {
     position: fixed;
-    top: 86px;
+    top: 4.7778rem;
     left: 0;
     right: 0;
     z-index: 999;
@@ -706,11 +706,11 @@ nav.menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 1.1111rem;
   }
 
   .search-bar-mobile input {
-    padding: 8px 32px 8px 8px;
+    padding: 0.4444rem 1.7778rem 0.4444rem 0.4444rem;
     height: 2.5556em;
     width: 100%;
     border: 1px solid #858483;
@@ -724,7 +724,7 @@ nav.menu {
     width: 16px;
     height: 16px;
     position: absolute;
-    right: 34px;
+    right: 1.8889rem;
   }
 
   .mobilenavigationbottom {
@@ -738,7 +738,7 @@ nav.menu {
     justify-content: right;
     align-items: right;
     gap: 16px;
-    padding: 8px;
+    padding: 0.4444rem;
   }
 
   .menu {
@@ -748,20 +748,20 @@ nav.menu {
 
 /* Card section styles */
 .card-section {
-  padding: 70px 0px 70px 70px;
+  padding: 3.8889rem 0 3.8889rem 3.8889rem;
 }
 
 @media (max-width: 515px) {
   .card-section {
-    padding: 40px 0px 20px 20px;
+    padding: 2.2222rem 0 1.1111rem 1.1111rem;
   }
 }
 
 .card-section h2 {
-  font-size: 32px;
+  font-size: 1.7778rem;
   font-family: "Stardom-Regular";
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 0.8889rem;
   color: #474539;
 }
 
@@ -791,16 +791,16 @@ nav.menu {
 
 .card-text-container {
   background-color: #d0c3b4;
-  padding: 24px 16px;
-  margin-top: -14px;
+  padding: 1.3333rem 0.8889rem;
+  margin-top: -0.7778rem;
 }
 
 .card-heading {
   font-family: "Stardom-Regular";
   font-size: 1.25rem;
   color: #0b0a0a;
-  margin-top: 12px;
-  margin-bottom: 24px;
+  margin-top: 0.6667rem;
+  margin-bottom: 1.3333rem;
 }
 
 .card-tags {
@@ -814,10 +814,10 @@ nav.menu {
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  padding: 8px 16px;
+  padding: 0.4444rem 0.8889rem;
   border-radius: 40px;
-  margin-right: 4px;
-  margin-bottom: 4px;
+  margin-right: 0.2222rem;
+  margin-bottom: 0.2222rem;
 }
 
 .card-price {
@@ -876,8 +876,8 @@ nav.menu {
   background-color: #d0c3b4;
   background-attachment: fixed;
   color: #0b0a0a;
-  padding: 8px;
-  margin-top: -72px;
+  padding: 0.4444rem;
+  margin-top: -4rem;
 }
 
 .badge-heading {
@@ -896,19 +896,19 @@ nav.menu {
 
 .card-text-container-event {
   background-color: #685f54;
-  padding: 24px 16px;
+  padding: 1.3333rem 0.8889rem;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #fbf8f6;
-  margin-top: -14px;
+  margin-top: -0.7778rem;
 }
 
 .card-heading-event {
   font-size: 1.7778rem;
   font-family: "Stardom-Regular";
   font-weight: 400;
-  padding-bottom: 16px;
+  padding-bottom: 0.8889rem;
   color: #fbf8f6;
 }
 
@@ -916,22 +916,22 @@ nav.menu {
   font-size: 1.7778rem;
   font-family: "Stardom-Regular";
   font-weight: 400;
-  padding-bottom: 16px;
+  padding-bottom: 0.8889rem;
   color: #0b0a0a;
 }
 
 .card-text-container-forum {
   background-color: #afa08f;
-  padding: 24px 16px;
+  padding: 1.3333rem 0.8889rem;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #0b0a0a;
-  margin-top: -14px;
+  margin-top: -0.7778rem;
 }
 
 .skaper {
-  padding-top: 16px;
+  padding-top: 0.8889rem;
 }
 
 .persona {
@@ -942,24 +942,24 @@ nav.menu {
 
 .card-text-container-blog {
   background-color: #726f5c;
-  padding: 24px 16px;
+  padding: 1.3333rem 0.8889rem;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #fffbf8;
-  margin-top: -14px;
+  margin-top: -0.7778rem;
 }
 
 .card-heading-blog {
   font-size: 1.7778rem;
   font-family: "Stardom-Regular";
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 0.8889rem;
   color: #fffbf8;
 }
 
 .card-paragarph {
-  margin-top: 24px;
+  margin-top: 1.3333rem;
 }
 
 /* Footer styles */
