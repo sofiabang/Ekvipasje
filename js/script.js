@@ -2,7 +2,6 @@
 
 // kilde: https://medium.com/swlh/how-to-create-your-first-login-page-with-html-css-and-javascript-602dd71144f1
 // Brukte litt chatgpt for å feilsøke kode
-
 const loginForm = document.querySelector(".login-form");
 const usernameInput = document.querySelector("#username");
 const passwordInput = document.querySelector("#password");
@@ -21,7 +20,6 @@ document.addEventListener("keydown", function (event) {
 // HJEM
 
 // Her er det "enkle" mouseenter og mouseleave events for å vise menuItems når man hovrer
-
 const menuItems = document.querySelectorAll(".menu li");
 
 menuItems.forEach((menuItem) => {
@@ -37,7 +35,6 @@ menuItems.forEach((menuItem) => {
 });
 
 // Likebutton
-
 function toggleLikeButton() {
   var button = document.querySelector(".card-heart-button");
   button.classList.toggle("liked");

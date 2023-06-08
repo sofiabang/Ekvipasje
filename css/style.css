@@ -357,7 +357,7 @@ body {
 }
 
 .button-blimedlem {
-  margin-right: 1.1111rem;;
+  margin-right: 1.1111rem;
 }
 
 .button-blimedlem:hover,
@@ -395,7 +395,7 @@ body {
   justify-content: center;
   height: 100vh;
   background: #fbf8f6;
-  padding: 0 1.1111rem;;
+  padding: 0 1.1111rem;
 }
 
 .form-container {
@@ -554,7 +554,7 @@ body {
   top: 50%;
   right: 0.4444rem;
   transform: translateY(-50%);
-  width: 0.8889rem; 
+  width: 0.8889rem;
   height: 0.8889rem;
 }
 
@@ -662,7 +662,7 @@ nav.menu {
   display: flex;
   padding: 0.4444rem;
   text-decoration: none;
-  color: #0B0A0A;
+  color: #0b0a0a;
   justify-content: space-between;
 }
 
