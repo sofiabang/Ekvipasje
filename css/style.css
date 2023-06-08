@@ -547,6 +547,7 @@ body {
   border-radius: 4px;
   font-family: "PlusJakartaSans-Variable", sans-serif;
   font-size: 1rem;
+  background-color: transparent;
 }
 
 .search-icon {
